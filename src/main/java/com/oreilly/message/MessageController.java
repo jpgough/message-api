@@ -13,7 +13,7 @@ public class MessageController {
     @RequestMapping(path = "/message", method = RequestMethod.GET)
     @ResponseStatus(HttpStatus.OK)
     public String message() {
-        return new String("I am version 3");
+        return new String("I am version 3.");
     }
 
 
